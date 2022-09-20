@@ -1,42 +1,931 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <title> Mac Mac Sandwhich </title>
-    <meta name="description" content="Coder by the name of Mac Mac">
-    <meta charset="utf-8">
-    <meta name="robots" content="index, follow">
-    <link rel="icon" href="/img/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    ,<link rel="stylesheet" href="/index.css">
-</head>
-<body background="/img/Drums at Great Day.jpeg">
-        <h1 class="logo">Mac Mac Central:</h1>
-        <div class="intro">
-            <p><i>Hello World !! from Mac Mac</i></p>
-            <h2>My Story</h2>
-                <h3 class="Article-text"> I'm a paralized musician who's relearning his craft and new ways to be creative. I have a New Journey as a coder and am bringing together everything i've done so far as well as preparing myself for new goals.</h3>
-                <p>This is the start of my personal content.</p>
-                    <a target="_blank" href="https://www.youtube.com/channel/UC9ILbA9FGwI0V6cxPIaO6rg">
-                        <img src="/icons/iconmonstr-youtube-6-240.png" alt="Youtube Mac Mac"></a>
-                <A id="youtube-link" href="https://www.youtube.com/embed/cnYwATiXSNc"> Matthew's youtube </A>
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Project 0 | Mac Mac Central</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="manifest" href="/public/assets/img/favicons/manifest.json" />
+    <meta
+      name="msapplication-TileImage"
+      content="/public/assets/img/favicons/mstile-150x150.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="/theme.css" rel="stylesheet" />
+  </head>
+
+  <body background="/Old Web Pages/img/Drums at Great Day.jpeg" style="background-repeat: no-repeat; background-position: top; background-size:auto;">
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+            <nav id="nav"
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block"
+        data-navbar-on-scroll="data-navbar-on-scroll"
+      >
+        <div class="container">
+          <a class="navbar-brand d-inline-flex" href="/index.html"
+            ><span class="display-1 lh-sm text-uppercase text-light">Mac Mac Central</span></a
+          >
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
+            id="navbarSupportedContent">
+            <ul class="navbar-nav me-lg-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2" aria-current="page">
+                <a class="nav-link fw-bold" href="#top">Hola Mundo!</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="/Old Web Pages/What's New.html">What's New</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="/Old Web Pages/about.html">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="/Old Web Pages/follow me.html">Follow ME</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#My Projects">My Projects</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-bold" href="#In Memorium">Memorium</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    <!-- Find Yourself Here -->
-    </h1> <br>
-    <video controls autoplay width="1080" height="720"
-        src="/video/“Seeds in the Ground” by Cellus Hamilton ft Emily Thomas Drum Cover.mp4"
-        title="“Seeds in the Ground” by Cellus Hamilton ft Emily Thomas Drum Cover" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </video>
-    <!-- Find Yourself Here -->
-    <Section class="List-with-Heading">
-        <div class="nav">
-            <ul aria-label="Navigaton"> <h2>Navigation</h2>
-            <li><a href="/index.html">Hola Mundo</a>:Home</li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="https://www.facebook.com/FortuneCookiewithasplashof/">Follow Me</a></li>
-            <li><a href="/What's New.html"> What's New</a></li>
-    </Section>
-</body>
+      </nav>
+      <section class="py-0" id="header">
+        <div
+          class="bg-holder"
+          style="
+            background-image: url(assets/img/gallery/header-bg.png);
+            background-position: right top;
+            background-size: contain;
+          "
+        ></div>
+        <!--/.bg-holder-->
+        <div class="container">
+          <div class="row align-items-center min-vh-100 min-vh-xl-100">
+            <div class="col-md-8 col-lg-6 text-md-start text-center">
+              <div class="pt-12">
+                <a class="btn btn-lg btn-primary" aria-label="navbar-toggler" href="#nav-collapsed=false"
+                  >Take a tour!</a>
+              </div>
+              <div>
+              <h1 class="text-light fs-2 fw-bold ms-2">
+                Welcome to my small world <br class="d-none d-xxl-block" />
+                of content!
+              </h1></div>
+              <div class="col-md-8 col-lg-6 flex-end-center">
+              <iframe width="560" height="350" src="https://www.youtube.com/embed/cnYwATiXSNc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowautoplay allowfullscreen></iframe></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-8 pt-0" id="store">
+        <div
+          class="bg-holder bg-gradient"
+          style="
+            background-image: url(assets/img/gallery/store-bg.png);
+            background-position: left bottom;
+            background-size: contain;
+          "
+        ></div>
+        <!--/.bg-holder-->
+
+        <div class="container-lg">
+          <div class="row flex-center">
+            <div class="col-6 order-md-0 text-center text-md-start"></div>
+            <div class="col-sm-10 col-md-6 col-lg-6 text-center text-md-start">
+              <div class="col-4 position-relative ms-auto py-5">
+                <a
+                  class="carousel-control-prev carousel-icon z-index-2"
+                  href="#carouselExampleFade"
+                  role="button"
+                  data-bs-slide="prev"
+                  ><span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Previous</span></a
+                ><a
+                  class="carousel-control-next carousel-icon z-index-2"
+                  href="#carouselExampleFade"
+                  role="button"
+                  data-bs-slide="next"
+                  ><span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Next</span></a
+                >
+              </div>
+              <div
+                class="carousel slide carousel-fade bg-gradient"
+                id="carouselExampleFade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row h-100">
+                      <div class="col-12">
+                        <h5 class="fs-3 fs-lg-5 lh-sm text-uppercase">
+                          My Content
+                        </h5>
+                        <p class="my-4 pe-xl-5">
+                          Memphis clinched a spot in the play-in tournament with
+                          the victory, but the fight for seeding continues. The
+                          race for the No. 8 spot in the West -- and the safety
+                          net of having to win just one of two games to make the
+                          playoffs -- could come down to the regular seasons
+                          final day, when Memphis and Golden State meet. The
+                          good thing for the Grizzlies is they dont have to
+                          leave home until that matchup as they have games
+                          against Dallas and two against Sacramento before the
+                          finale.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row h-100">
+                      <div class="col-12">
+                        <h5 class="fs-3 fs-lg-5 lh-sm text-uppercase">
+                          My content
+                        </h5>
+                        <p class="my-4 pe-xl-5">
+                          Memphis clinched a spot in the play-in tournament with
+                          the victory, but the fight for seeding continues. The
+                          race for the No. 8 spot in the West -- and the safety
+                          net of having to win just one of two games to make the
+                          playoffs -- could come down to the regular seasons
+                          final day, when Memphis and Golden State meet. The
+                          good thing for the Grizzlies is they dont have to
+                          leave home until that matchup as they have games
+                          against Dallas and two against Sacramento before the
+                          finale.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row h-100">
+                      <div class="col-12">
+                        <h5 class="fs-3 fs-lg-5 lh-sm text-uppercase">
+                          My Content
+                        </h5>
+                        <p class="my-4 pe-xl-5">
+                          Memphis clinched a spot in the play-in tournament with
+                          the victory, but the fight for seeding continues. The
+                          race for the No. 8 spot in the West -- and the safety
+                          net of having to win just one of two games to make the
+                          playoffs -- could come down to the regular seasons
+                          final day, when Memphis and Golden State meet. The
+                          good thing for the Grizzlies is they dont have to
+                          leave home until that matchup as they have games
+                          against Dallas and two against Sacramento before the
+                          finale.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-0 pb-6" id="My Projects">
+        <div class="container">
+          <div class="row h-100">
+            <div class="col-lg-7 mt-7">
+              <a href="/Old Web Pages/My Projects.html"><h5 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase">
+                My Projects
+              </h5></a>
+            </div>
+            <div class="col-12">
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="nav-latest"
+                  role="tabpanel"
+                  aria-labelledby="nav-latest-tab"
+                >
+                  <div
+                    class="carousel slide"
+                    id="carouselLatest"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div
+                        class="carousel-item active"
+                        data-bs-interval="10000"
+                      >
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselLatest"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselLatest"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="visually-hidden">Next </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="nav-popular"
+                  role="tabpanel"
+                  aria-labelledby="nav-popular-tab"
+                >
+                  <div
+                    class="carousel slide"
+                    id="carouselPopular"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div
+                        class="carousel-item active"
+                        data-bs-interval="10000"
+                      >
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row h-100 align-items-center">
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-2.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$650.00</h6>
+                                <h4 class="text-light">ADRIATICA ADR</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-3.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$126.00</h6>
+                                <h4 class="text-light">SEIKO SNZGO7K1</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img
+                                class="card-img"
+                                src="assets/img/gallery/watch-1.png"
+                                alt="..."
+                              />
+                              <div
+                                class="card-img-overlay bg-dark-gradient d-flex flex-column-reverse align-items-center"
+                              >
+                                <h6 class="text-primary">$250.00</h6>
+                                <h4 class="text-light">ROAMER RM 220837</h4>
+                              </div>
+                              <a class="stretched-link" href="#"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselPopular"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselPopular"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span
+                          ><span class="visually-hidden">Next </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="py-6 bg-dark" id="In Memorium">
+        <div class="container">
+          <div class="col-lg-7 mt-7">
+            <a href="/Old Web Pages/in memorium.html"><h5 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase">In Memorium</h5></a>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 d-flex flex-start">
+              <img class="float-start fit-contain" src="/Old Web Pages/img/Mike Photos/Bacon Mike.JPG" alt="Funny Guy" />
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 d-flex flex-center">
+              <img class="float-center fit-contain"src="/Old Web Pages/img/Mike Photos/In Loving Memory.JPEG" alt="Memory" />
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 d-flex flex-end-center">
+              <img class="float-center fit-contain" src="/Old Web Pages/img/Mike Photos/intrepid Trio.jpg" alt="Friends to the End" />
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 d-flex flex-end">
+              <img class="float-end fit-contain"src="/Old Web Pages/img/Mike Photos/Muscle Beach.JPEG" alt="Beach" />
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="py-0 pt-7" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-xl-3 mb-3">
+              <h4 class="lh-lg fw-bold text-light">WATCH</h4>
+            </div>
+            <div class="col-6 col-sm-4 col-xl-3 mb-3">
+              <h5 class="lh-lg fw-bold text-light">MENU</h5>
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg text-lg-white">
+                  <a
+                    class="text-800 text-decoration-none text-uppercase fw-bold"
+                    href="#!"
+                    >Shipping Info</a
+                  >
+                </li>
+                <li class="lh-lg text-lg-white">
+                  <a
+                    class="text-800 text-decoration-none text-uppercase fw-bold"
+                    href="#!"
+                    >Refunds</a
+                  >
+                </li>
+                <li class="lh-lg text-lg-white">
+                  <a
+                    class="text-800 text-decoration-none text-uppercase fw-bold"
+                    href="#!"
+                    >How to Order</a
+                  >
+                </li>
+                <li class="lh-lg text-lg-white">
+                  <a
+                    class="text-800 text-decoration-none text-uppercase fw-bold"
+                    href="#!"
+                    >How to Track</a
+                  >
+                </li>
+                <li class="lh-lg text-lg-white">
+                  <a
+                    class="text-800 text-decoration-none text-uppercase fw-bold"
+                    href="#!"
+                    >Size Guides</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-4 col-xl-3 mb-3">
+              <h5 class="mb-5"></h5>
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg text-lg-white">
+                  <a
+                    class="text-800 text-decoration-none text-uppercase fw-bold"
+                    href="#!"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="lh-lg text-lg-white">
+                  <a
+                    class="text-800 text-decoration-none text-uppercase fw-bold"
+                    href="#!"
+                    >my account</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-xl-3">
+              <h5 class="lh-lg fw-bold text-light text-uppercase">
+                Signup For our Latest News
+              </h5>
+              <div class="row input-group-icon mb-5">
+                <div class="col-12">
+                  <form class="row row-cols-lg-auto g-0 align-items-center">
+                    <div class="col-8 col-lg-9">
+                      <label class="visually-hidden" for="colFormLabel"
+                        >Username</label
+                      >
+                      <div class="input-group">
+                        <input
+                          class="rounded-end-0 form-control"
+                          id="colFormLabel"
+                          type="email"
+                          placeholder="email address"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <button
+                        class="btn btn-primary rounded-start-0"
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border-bottom border-700"></div>
+          <div class="row flex-center my-3">
+            <div class="col-md-6 order-1 order-md-0">
+              <p class="my-2 text-800 text-center text-md-start">
+                Made with&nbsp;
+                <svg
+                  class="bi bi-suit-heart-fill"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  fill="#EB6453"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"
+                  ></path></svg>&nbsp;by&nbsp;<a
+                  class="text-500"
+                  href="https://themewagon.com/"
+                  target="_blank"
+                  >ThemeWagon: customized by Mac Mac Central
+                </a>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="text-center text-md-end">
+                <a href="#!"
+                  ><span class="me-4" data-feather="facebook"></span></a
+                ><a href="#!">
+                  <span class="me-4" data-feather="instagram"></span></a
+                ><a href="#!">
+                  <span class="me-4" data-feather="youtube"></span></a
+                ><a href="#!">
+                  <span class="me-4" data-feather="twitter"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="vendors/feather-icons/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="assets/js/theme.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </body>
 </html>
